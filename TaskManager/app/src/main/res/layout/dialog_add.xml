@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_add"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_from_top">
+
+        <EditText
+            android:id="@+id/input_task_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:hint="@string/task"
+            android:inputType="text"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/input_text_size" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_from_top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/input_time"
+                android:layout_width="@dimen/layout_size"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:hint="@string/time"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/input_text_size" />
+
+            <ImageButton
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="@color/colorBackgroundTint"
+                android:src="@drawable/ic_time"
+                android:tint="@color/colorTint" />
+
+        </RelativeLayout>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_from_top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/input_date"
+                android:layout_width="@dimen/layout_size"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:hint="@string/date"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/input_text_size" />
+
+            <ImageButton
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="@color/colorBackgroundTint"
+                android:src="@drawable/ic_date"
+                android:tint="@color/colorTint" />
+
+        </RelativeLayout>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/add_task_image"
+            android:layout_width="@dimen/center_size"
+            android:layout_height="@dimen/center_size"
+            android:layout_marginTop="@dimen/margin_from_top"
+            android:src="@drawable/task" />
+
+        <Spinner
+            android:id="@+id/spinner_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/spinnerItems"
+            >
+
+        </Spinner>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_from_top"
+        android:tint="@color/colorTint"
+        android:backgroundTint="@color/colorBackgroundTint"
+        android:src="@drawable/ic_ok"
+        />
+
+</LinearLayout>

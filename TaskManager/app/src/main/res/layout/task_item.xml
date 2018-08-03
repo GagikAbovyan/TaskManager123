@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_top"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_task"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:src="@drawable/task" />
+
+        <TextView
+            android:id="@+id/task_item"
+            android:layout_width="@dimen/text_res_reg"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_from_top"
+            android:fontFamily="cursive"
+            android:textSize="@dimen/text_size_reg"
+            android:text="@string/wake_up_at_8_o_clock" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/margin_from_top"
+            android:layout_marginTop="@dimen/margin_from_top"
+            android:textSize="@dimen/time_size"
+            android:text="@string/_12_00" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/margin_from_top"
+            android:layout_marginTop="@dimen/date_from_end"
+            android:textSize="@dimen/time_size"
+            android:text="@string/_22_07_2018" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

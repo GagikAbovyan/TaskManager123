@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSelected">#ff0004</color>
+    <color name="colorBackgroundTint">#76e4ec</color>
+    <color name="colorTint">#061af5</color>
+    <color name="colorGradient1">#96cee7</color>
+    <color name="colorGradient2">#94e5f9</color>
+    <color name="colorGradient3">#c4e8ec</color>
+    <color name="colorText">#3d02ff</color>
+    <color name="colorGradientAdd1">#a7e8f4</color>
+    <color name="colorGradientAdd2">#e5f2cc</color>
+    <color name="colorGradientAdd3">#d9ebfd</color>
+    <color name="colorGradientTask1">#f280d8</color>
+    <color name="colorGradientTask2">#61b7c1</color>
+    <color name="colorGradientTask3">#0bf292</color>
+
+
+</resources>

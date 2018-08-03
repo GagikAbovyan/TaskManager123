@@ -1,0 +1,127 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_color"
+    tools:context="vtc.room.a101.taskmanager.fragmens.RegisterFragment">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/name"
+            android:contentDescription="@string/input_name"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/input_text_size"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/surname"
+            android:contentDescription="@string/input_surname"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/input_text_size"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/number"
+            android:contentDescription="@string/input_number"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/input_text_size"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_email_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/email"
+            android:contentDescription="@string/input_email"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/input_text_size"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/input_password_reg"
+                android:layout_width="@dimen/edit_text_res"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:hint="@string/input_password"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/input_text_size" />
+
+            <ImageButton
+                android:id="@+id/is_password_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_eye"
+                android:layout_marginTop="@dimen/margin_top"
+                android:tint="@color/colorTint"
+                android:backgroundTint="@color/colorBackgroundTint"
+                />
+        </LinearLayout>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <ImageButton
+        android:id="@+id/button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_ok"
+        android:tint="@color/colorTint"
+        android:backgroundTint="@color/colorBackgroundTint"
+        />
+
+
+</LinearLayout>

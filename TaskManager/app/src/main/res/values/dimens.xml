@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="min_size">0dp</dimen>
+    <dimen name="ring_size">2dp</dimen>
+    <dimen name="input_text_size">30sp</dimen>
+    <dimen name="margin_from_top">20dp</dimen>
+    <dimen name="layout_size">180dp</dimen>
+    <dimen name="center_size">150dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="image_size">100dp</dimen>
+    <dimen name="progress_size">50dp</dimen>
+    <dimen name="text_size">140dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="edit_text_res">350dp</dimen>
+    <dimen name="text_res_reg">110dp</dimen>
+    <dimen name="text_size_reg">25sp</dimen>
+    <dimen name="time_size">20sp</dimen>
+    <dimen name="date_from_end">40dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="edit_text_resource">350dp</dimen>
+</resources>
